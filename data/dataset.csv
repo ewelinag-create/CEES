@@ -1,0 +1,39 @@
+import pandas as pd
+
+data = [
+    # LOW RISK – original + new (łącznie 10)
+    {"id": 1, "text": "Bicycle stolen from locked shed overnight. No previous incidents reported.", "escalation_level": "low"},
+    {"id": 4, "text": "Group of teenagers seen drinking and shouting in the park. Dispersed on arrival of officers.", "escalation_level": "low"},
+    {"id": 7, "text": "Single report of graffiti on garage door. No suspects identified.", "escalation_level": "low"},
+    {"id": 11, "text": "Resident reports a one-off noise disturbance from nearby construction work. No further issues.", "escalation_level": "low"},
+    {"id": 12, "text": "Caller reports a broken window in a communal hallway. No witnesses or previous complaints.", "escalation_level": "low"},
+    {"id": 13, "text": "Parking dispute between two drivers, both left before police arrival.", "escalation_level": "low"},
+    {"id": 14, "text": "Report of fireworks being set off in a local park by teenagers. Area clear on arrival.", "escalation_level": "low"},
+    {"id": 15, "text": "Lost mobile phone reported at shopping centre. No suspicious activity.", "escalation_level": "low"},
+    {"id": 16, "text": "Single complaint about loud television from next-door neighbour. No previous calls.", "escalation_level": "low"},
+    {"id": 17, "text": "Dog found running loose in street. Owner located shortly after.", "escalation_level": "low"},
+
+    # MEDIUM RISK – original + new (łącznie 10)
+    {"id": 2, "text": "Neighbours report loud arguing between a couple. Police attended, no injuries, first reported incident.", "escalation_level": "medium"},
+    {"id": 5, "text": "Caller reports ongoing harassment from neighbour, including repeated banging on walls and shouting late at night.", "escalation_level": "medium"},
+    {"id": 8, "text": "Shop employee reports a customer returning several times to argue about a refund.", "escalation_level": "medium"},
+    {"id": 9, "text": "Caller reports ongoing conflict with neighbour over shared driveway access.", "escalation_level": "medium"},
+    {"id": 10, "text": "Woman reports ex-friend sending passive-aggressive messages and showing up at social events uninvited.", "escalation_level": "medium"},
+    {"id": 18, "text": "Neighbours report repeated shouting late at night from the same apartment. No injuries, but ongoing disturbance.", "escalation_level": "medium"},
+    {"id": 19, "text": "Resident reports strong smell of cannabis from neighbour’s flat and regular visitors late at night.", "escalation_level": "medium"},
+    {"id": 20, "text": "Father reports escalating arguments with teenage son, no violence recorded.", "escalation_level": "medium"},
+    {"id": 21, "text": "Staff member reports a colleague raising their voice aggressively during a disagreement.", "escalation_level": "medium"},
+
+    # HIGH RISK – original + new (łącznie 9)
+    {"id": 3, "text": "Victim states her ex-partner has been waiting outside her workplace for several days and sending threatening messages.", "escalation_level": "high"},
+    {"id": 6, "text": "Victim reports ex-partner breached restraining order, entered property and threatened to kill her in front of the children.", "escalation_level": "high"},
+    {"id": 22, "text": "Victim reports ex-partner has tried to contact her over 50 times this week despite block and previous warnings.", "escalation_level": "high"},
+    {"id": 23, "text": "Caller states neighbour threatened to 'come back with a knife' after an argument over parking.", "escalation_level": "high"},
+    {"id": 24, "text": "Woman reports partner smashed her phone during argument, previous police attendance recorded.", "escalation_level": "high"},
+    {"id": 25, "text": "Victim reports being followed from work by unknown male for three consecutive days.", "escalation_level": "high"},
+    {"id": 26, "text": "Caller states ex-partner breached restraining order again and attempted to enter property.", "escalation_level": "high"},
+    {"id": 27, "text": "Man reports receiving explicit death threats online related to ongoing harassment case.", "escalation_level": "high"}
+]
+
+df = pd.DataFrame(data)
+df
