@@ -1,3 +1,0 @@
-TF-IDF + Logistic Regression
-Accuracy: 0.56
-(raport klasyfikacji, matrix — możesz wkleić to co Ci wyszło)
