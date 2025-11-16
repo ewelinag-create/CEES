@@ -126,7 +126,8 @@ evaluation metrics and predictions
 
 A complete academic-style report (PDF) describing the project:
 
-📄 report/CEES_report.pdf
+📄 [Download full report (PDF)](report/CEES%20report.pdf)
+
 
 🚀 6. Future Work
 
