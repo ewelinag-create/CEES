@@ -1,14 +1,14 @@
 # CEES
 CEES – Crime Escalation Early-warning System
-Machine Learning and NLP Project for Predicting Behavioural Escalation in Crime Narratives
+A machine learning and NLP project analysing crime narratives to predict behavioural escalation risk
 
 Author: Ewelina Gradwicka
 Year: 2025
 Status: Research Prototype
 
-Overview
+⭐ Overview
 
-CEES (Crime Escalation Early-warning System) is a Natural Language Processing (NLP) project designed to classify short crime-style narratives into three escalation levels:
+CEES (Crime Escalation Early-warning System) is an NLP-based model designed to classify short crime-style incident narratives into three escalation levels:
 
 Low risk
 
@@ -16,116 +16,131 @@ Medium risk
 
 High risk
 
-Its purpose is to explore whether linguistic patterns present in incident descriptions can be used to support early-warning and risk assessment systems in policing, public safety and behavioural threat contexts.
-The project integrates criminological knowledge with machine learning techniques.
+The goal is to explore whether linguistic patterns in incident descriptions can be used to support early-warning systems in policing, safeguarding and public safety environments.
 
-Project Objectives
+CEES integrates criminology knowledge with machine learning, bridging behavioural analysis and AI.
 
-Identify linguistic indicators associated with escalating behaviour.
+⭐ Project Goals
 
-Compare classical NLP methods with transformer-based models.
+Identify textual patterns associated with conflict escalation
 
-Evaluate the feasibility of automated narrative analysis for early intervention.
+Compare classical NLP (TF-IDF + logistic regression) with transformer-based models
 
-Establish a foundation for future research in AI-driven risk assessment.
+Demonstrate the feasibility of narrative analysis for risk assessment
 
-1. Dataset
+Build a foundation for future AI tools supporting early intervention
 
-A synthetic pilot dataset of 29 crime-style narratives was created and manually labelled:
+🔍 1. Dataset
 
-10 Low-risk incidents
+A synthetic pilot dataset of 29 crime-style narratives, labelled as:
 
-10 Medium-risk incidents
+10 Low risk
 
-9 High-risk incidents
+10 Medium risk
 
-The narratives simulate patterns commonly observed in real police reports, including domestic abuse, harassment, neighbour disputes, stalking, conflict escalation and antisocial behaviour.
+9 High risk
 
-Dataset file:
-data/dataset.csv
+Narratives cover:
+domestic abuse, neighbour disputes, harassment, stalking, antisocial behaviour and general community conflicts.
 
-2. Models Implemented
-2.1 CEES 2.0 — TF-IDF + Logistic Regression
+📂 Dataset file:
+/data/dataset.csv
+
+🤖 2. Models Implemented
+CEES 2.0 – TF-IDF + Logistic Regression
 
 TF-IDF vectorisation
 
-Multinomial logistic regression classifier
+Multinomial logistic regression
 
 Accuracy: 0.56
 
-Demonstrated ability to detect meaningful criminological patterns
+Clear criminological patterns learned (e.g., threats, repeated monitoring, ex-partner contact)
 
-Results file:
-results/tfidf_results.txt
+📄 Results:
+/results/tfidf_results.txt
 
-2.2 CEES 3.0 — Transformer Zero-shot Model
+CEES 3.0 – Transformer Zero-shot Classification
 
-Model used: facebook/bart-large-mnli
+Model: facebook/bart-large-mnli
 
 Zero-shot text classification
 
-Evaluates incident narratives without task-specific fine-tuning
+Semantic understanding of narratives
 
 Accuracy: 0.44
 
-Demonstrated strong semantic understanding of high-risk patterns
+Strong performance on high-risk prediction
 
-Results file:
-results/bert_results.txt
+📄 Results:
+/results/bert_results.txt
 
-3. Key Findings
-High-risk indicators
+📈 3. Key Findings
+🔥 High-risk language indicators:
 
-Words frequently associated with high-risk incidents included:
-partner, ex, victim, threats, restraining, weapons, followed, consecutive, monitoring.
+partner, ex, victim
 
-Medium-risk indicators
+threats, restraining, weapons
 
-neighbours, arguing, injuries, returning, night, customer.
+followed, consecutive, monitoring
 
-Low-risk indicators
+🔥 Medium-risk indicators:
 
-parking, noise, construction, drivers, teenagers, flat.
+neighbours, arguing, injuries
 
-These patterns correspond with criminological theories related to coercive control, repeat victimisation, dispute escalation and behavioural threat assessment.
+returning, night, customer
 
-4. Code
+🔥 Low-risk indicators:
 
-All preprocessing, modelling and evaluation steps are included in the notebook:
-CEES.ipynb
+parking, noise, construction
 
-The notebook contains:
+drivers, teenagers
 
-Text preprocessing
+These patterns align with criminological theory:
 
-TF-IDF feature extraction
+coercive control
 
-Logistic regression classifier
+repeat victimisation
 
-Zero-shot transformer pipeline
+conflict escalation models
 
-Evaluation and predictions
+🧪 4. Code
 
-5. Research Report
+The full training, preprocessing and evaluation workflow is in:
 
-A full academic-style project report is included in PDF form:
-report/CEES_report.pdf
+📘 CEES.ipynb
 
-6. Future Work
+Includes:
 
-Planned future improvements include:
+dataset loading
 
-Expansion to a much larger dataset
+TF-IDF vectorisation
 
-Fine-tuning transformer-based models for domain-specific classification
+logistic regression classifier
 
-Integration of contextual metadata (relationship type, history, temporal variables)
+zero-shot transformer pipeline
 
-Implementation of explainable AI techniques
+evaluation metrics and predictions
 
-Development of a deployment-ready API
+📄 5. Research Report
 
-7. Technologies Used
+A complete academic-style report (PDF) describing the project:
+
+📄 report/CEES_report.pdf
+
+🚀 6. Future Work
+
+Expand dataset (1000+ narratives)
+
+Fine-tune transformer models (BERT, RoBERTa, DeBERTa)
+
+Add contextual metadata (relationship, history, timestamps)
+
+Implement explainable AI (SHAP, LIME)
+
+Develop a deployment-ready API for real-time risk scoring
+
+🧩 7. Technologies Used
 
 Python
 
@@ -133,9 +148,7 @@ Scikit-learn
 
 HuggingFace Transformers
 
-Pandas
-
-NumPy
+Pandas / NumPy
 
 Google Colab
 
@@ -145,11 +158,11 @@ Logistic Regression
 
 Zero-shot Classification
 
-8. About the Author
+👩‍💻 8. About the Author
 
-I am a Criminology student with a strong interest in Artificial Intelligence applications in public safety, behavioural analysis and risk prediction. CEES combines the theoretical foundations of criminology with modern NLP techniques to explore how AI can support early intervention and evidence-based decision-making.
+I am a Criminology student passionate about applying Artificial Intelligence to behavioural risk prediction, conflict escalation and public safety challenges. This project combines criminology and machine learning to explore new ways AI can support early intervention and evidence-based decision-making.
 
-9. Contact
+⭐ 9. Contact
 
-For collaboration or feedback:
+If you would like to collaborate, discuss the research or provide feedback:
 Email: ewelina.gradwicka@gmail.com
