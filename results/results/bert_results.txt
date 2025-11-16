@@ -1,0 +1,3 @@
+BERT Zero-shot Classification
+Accuracy: 0.44
+(raport klasyfikacji)
