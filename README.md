@@ -124,7 +124,7 @@ repeat victimisation
 
 conflict escalation models
 
-```md
+
 ## Limitations
 
 CEES is a **pilot proof-of-concept**, not a production system.  
