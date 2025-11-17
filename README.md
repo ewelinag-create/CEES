@@ -51,7 +51,7 @@ Demonstrate the feasibility of narrative analysis for risk assessment
 
 Build a foundation for future AI tools supporting early intervention
 
-🔍 1. Dataset
+## Dataset
 
 A synthetic pilot dataset of 29 crime-style narratives, labelled as:
 
@@ -66,7 +66,7 @@ domestic abuse, neighbour disputes, harassment, stalking, antisocial behaviour a
 
 📂 Dataset file: [data/dataset.csv](data/dataset.csv)
 
-🤖 2. Models Implemented
+## Models Implemented
 CEES 2.0 – TF-IDF + Logistic Regression
 
 TF-IDF vectorisation
@@ -93,7 +93,8 @@ Strong performance on high-risk prediction
 
 📄 Results (BERT zero-shot): [results/bert_results.txt](results/bert_results.txt)
 
-📈 3. Key Findings
+## Key Findings
+
 🔥 High-risk language indicators:
 
 partner, ex, victim
@@ -149,7 +150,7 @@ Potential sources of bias include:
 Tools like CEES should only be used as **decision support**, under human supervision, and never as the sole basis for action.  
 Transparency, accountability and continuous auditing are essential for any real-world deployment.
 
-🧪 4. Code
+## **Code**
 
 The full training, preprocessing and evaluation workflow is in:
 
@@ -167,14 +168,14 @@ zero-shot transformer pipeline
 
 evaluation metrics and predictions
 
-📄 5. Research Report
+## **Research Report**
 
 A complete academic-style report (PDF) describing the project:
 
 📄 [Download full report (PDF)](report/CEES%20report.pdf)
 
 
-🚀 6. Future Work
+## **Future Work**
 
 Expand dataset (1000+ narratives)
 
@@ -186,7 +187,7 @@ Implement explainable AI (SHAP, LIME)
 
 Develop a deployment-ready API for real-time risk scoring
 
-🧩 7. Technologies Used
+## **Technologies Used**
 
 Python
 
@@ -204,11 +205,11 @@ Logistic Regression
 
 Zero-shot Classification
 
-👩‍💻 8. About the Author
+## **About the Author**
 
 I am a Criminology student passionate about applying Artificial Intelligence to behavioural risk prediction, conflict escalation and public safety challenges. This project combines criminology and machine learning to explore new ways AI can support early intervention and evidence-based decision-making.
 
-⭐ 9. Contact
+## **Contact**
 
 If you would like to collaborate, discuss the research or provide feedback:
 Email: ewelina.gradwicka@gmail.com
