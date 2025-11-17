@@ -19,6 +19,12 @@ High risk
 The goal is to explore whether linguistic patterns in incident descriptions can be used to support early-warning systems in policing, safeguarding and public safety environments.
 
 CEES integrates criminology knowledge with machine learning, bridging behavioural analysis and AI.
+### Notebook
+
+You can explore and run the full CEES notebook here:
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ewelinag-create/CEES/blob/main/CEES_project.ipynb)
+
 
 ⭐ Project Goals
 
