@@ -19,6 +19,63 @@ High risk
 The goal is to explore whether linguistic patterns in incident descriptions can be used to support early-warning systems in policing, safeguarding and public safety environments.
 
 CEES integrates criminology knowledge with machine learning, bridging behavioural analysis and AI.
+## How to run
+
+1. Clone this repository or download it as a ZIP:
+   ```bash
+   git clone https://github.com/ewelinag-create/CEES.git
+2. Install the required Python packages (see requirements.txt):
+pip install -r requirements.txt
+3. Open the notebook CEES_project.ipynb in Jupyter or Google Colab
+4. Run all cells to reproduce the results for:
+
+CEES 2.0 – TF-IDF + Logistic Regression
+
+CEES 3.0 – zero-shot transformer classifier (BART-large MNLI)
+
+5. Na dole kliknij **Commit changes**.
+
+Jak zrobisz – napisz: **„How to run gotowe”**.
+
+---
+
+## 2️⃣ Limitations + Ethics & Bias – też do README
+
+Znowu:
+
+1. Otwórz `README.md` → **Edit**.
+2. Na samym dole (albo pod sekcją z wynikami) wklej ten tekst:
+
+```md
+## Limitations
+
+CEES is a **pilot proof-of-concept**, not a production system.  
+Key limitations:
+
+- Very small, synthetic dataset (29 short narratives).  
+- Labels (low / medium / high) are simplified and do not capture the full complexity of real-world risk assessment.  
+- No external validation set or cross-domain testing.  
+- Models are trained and evaluated on the same narrow context.
+
+Results therefore **cannot be generalised** to operational policing or safeguarding.  
+The project is intended as an exploratory research prototype showing how NLP and machine learning could support criminological thinking about escalation.
+
+## Ethics and Bias
+
+Any AI system used in policing, safeguarding or risk assessment must be treated with extreme caution.
+
+Potential sources of bias include:
+
+- unrepresentative or historically biased data,  
+- differences in reporting and enforcement across communities,  
+- model overconfidence in ambiguous or borderline cases.
+
+Tools like CEES should only be used as **decision support**, under human supervision, and never as the sole basis for action.  
+Transparency, accountability and continuous auditing are essential for any real-world deployment.
+
+
+
+
 ### Notebook
 
 You can explore and run the full CEES notebook here:
