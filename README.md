@@ -6,7 +6,6 @@ Author: Ewelina Gradwicka
 Year: 2025
 Status: Research Prototype
 
-⭐ Overview 
 ## **Overview**
 
 CEES (Crime Escalation Early-warning System) is an NLP-based model designed to classify short crime-style incident narratives into three escalation levels:
@@ -42,7 +41,7 @@ You can explore and run the full CEES notebook here:
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ewelinag-create/CEES/blob/main/CEES_project.ipynb)
 
 
-⭐ Project Goals
+## **Project Goals**
 
 Identify textual patterns associated with conflict escalation
 
