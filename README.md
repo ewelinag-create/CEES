@@ -154,7 +154,7 @@ Transparency, accountability and continuous auditing are essential for any real-
 
 The full training, preprocessing and evaluation workflow is in:
 
-📘 Notebook: [CEES_project.ipynb](CEES_project.ipynb)
+📘 Notebook (open in Colab): [CEES_project.ipynb](https://colab.research.google.com/github/ewelinag-create/CEES/blob/main/CEES_project.ipynb)
 
 Includes:
 
