@@ -64,8 +64,7 @@ A synthetic pilot dataset of 29 crime-style narratives, labelled as:
 Narratives cover:
 domestic abuse, neighbour disputes, harassment, stalking, antisocial behaviour and general community conflicts.
 
-📂 Dataset file:
-/data/dataset.csv
+📂 Dataset file: [data/dataset.csv](data/dataset.csv)
 
 🤖 2. Models Implemented
 CEES 2.0 – TF-IDF + Logistic Regression
@@ -78,8 +77,7 @@ Accuracy: 0.78
 
 Clear criminological patterns learned (e.g., threats, repeated monitoring, ex-partner contact)
 
-📄 Results:
-/results/tfidf_results.txt
+📄 Results (TF-IDF): [results/tfidf_results.txt](results/tfidf_results.txt)
 
 CEES 3.0 – Transformer Zero-shot Classification
 
@@ -93,8 +91,7 @@ Accuracy: 0.33
 
 Strong performance on high-risk prediction
 
-📄 Results:
-/results/bert_results.txt
+📄 Results (BERT zero-shot): [results/bert_results.txt](results/bert_results.txt)
 
 📈 3. Key Findings
 🔥 High-risk language indicators:
@@ -156,7 +153,7 @@ Transparency, accountability and continuous auditing are essential for any real-
 
 The full training, preprocessing and evaluation workflow is in:
 
-📘 CEES_project.ipyn
+📘 Notebook: [CEES_project.ipynb](CEES_project.ipynb)
 
 Includes:
 
