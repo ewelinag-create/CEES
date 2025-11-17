@@ -1,0 +1,7 @@
+TF-IDF + Logistic Regression Results (CEES 2.0)
+
+Accuracy: 0.56
+
+Notes:
+- Three-class classification: low, medium, high risk.
+- Model captures meaningful criminological patterns such as repeated monitoring, ex-partner dynamics and threats.
