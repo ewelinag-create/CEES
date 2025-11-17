@@ -7,6 +7,7 @@ Year: 2025
 Status: Research Prototype
 
 ⭐ Overview 
+## **Overview**
 
 CEES (Crime Escalation Early-warning System) is an NLP-based model designed to classify short crime-style incident narratives into three escalation levels:
 
