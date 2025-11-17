@@ -24,8 +24,9 @@ CEES integrates criminology knowledge with machine learning, bridging behavioura
 1. Clone this repository or download it as a ZIP:
    ```bash
    git clone https://github.com/ewelinag-create/CEES.git
-2. Install the required Python packages (see requirements.txt):
-pip install -r requirements.txt
+2. Install the required Python packages (see `requirements.txt`):
+   ```bash
+   pip install -r requirements.txt
 3. Open the notebook CEES_project.ipynb in Jupyter or Google Colab
 4. Run all cells to reproduce the results for:
 
@@ -73,7 +74,7 @@ TF-IDF vectorisation
 
 Multinomial logistic regression
 
-Accuracy: 0.56
+Accuracy: 0.78
 
 Clear criminological patterns learned (e.g., threats, repeated monitoring, ex-partner contact)
 
@@ -88,7 +89,7 @@ Zero-shot text classification
 
 Semantic understanding of narratives
 
-Accuracy: 0.44
+Accuracy: 0.33
 
 Strong performance on high-risk prediction
 
@@ -155,7 +156,7 @@ Transparency, accountability and continuous auditing are essential for any real-
 
 The full training, preprocessing and evaluation workflow is in:
 
-📘 CEES.ipynb
+📘 CEES_project.ipyn
 
 Includes:
 
